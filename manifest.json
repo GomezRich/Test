@@ -1,12 +1,35 @@
 {
+  "id": "./index.html",
   "name": "Mi Pulpería",
-  "short_name": "Pulp",
+  "short_name": "Pulpería",
   "description": "Control de inventario, ventas, fiado y compras de la pulpería",
-  "start_url": "./mi-pulperia.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FBF4E4",
   "theme_color": "#1B4B43",
-  "lang": "es-NI"
+  "lang": "es-NI",
+  "dir": "ltr",
+  "categories": ["business", "shopping", "productivity"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }

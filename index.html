@@ -8,6 +8,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.json">
+<link rel="icon" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
 <title>Mi Pulpería</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
@@ -1228,7 +1230,7 @@ function escapar(str){
   renderInicio();
 
   if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('sw.js').catch(()=>{ /* no pasa nada si falla, ej. en la vista previa */ });
+    navigator.serviceWorker.register('./sw.js').catch(()=>{ /* no pasa nada si falla, ej. en la vista previa */ });
   }
 })();
 </script>

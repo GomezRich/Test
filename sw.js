@@ -1,7 +1,7 @@
 // Guarda una copia de la app en el celular la primera vez que abre con
 // internet. Después de eso, el celular ya la puede abrir sin conexión.
 const CACHE = 'pulperia-v1';
-const ARCHIVOS = ['./mi-pulperia.html', './manifest.json'];
+const ARCHIVOS = ['./index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-512-maskable.png'];
 
 self.addEventListener('install', (evento) => {
   evento.waitUntil(
