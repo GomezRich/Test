@@ -1,6 +1,6 @@
 {
   "name": "Mi Pulpería",
-  "short_name": "Pulpería",
+  "short_name": "Pulp",
   "description": "Control de inventario, ventas, fiado y compras de la pulpería",
   "start_url": "./mi-pulperia.html",
   "scope": "./",
